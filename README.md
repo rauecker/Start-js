@@ -1,4 +1,2 @@
 ## rauecker - experience 
 
- - qualquer coisa
- 
