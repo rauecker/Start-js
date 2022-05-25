@@ -1,0 +1,54 @@
+<meta charset ="UTF-8">
+
+<script>
+
+	var ano = 2022;
+	
+	function pulaLinha() { 
+
+		document.write("<br><br>")
+
+	}
+
+    function mostra(info){
+
+    	document.write(info);
+    	pulaLinha();
+
+    }
+
+    var loginCadastrado = "alura";
+    var senhaCadastrada = "alura123"
+
+    var maximoTentativas = 3;
+    var tentativaAtual = 1;
+
+    while(tentativaAtual <= maximoTentativas){
+
+        var loginInformado = prompt("Informe o Login ");
+        var senhaInformada = prompt("Infome a Senha ");
+
+        if (loginCadastrado == loginInformado && senhaCadastrada == senhaInformada){
+
+            mostra("<h3> Bem-vindo ao sistema ALURA </h3>");
+
+        tentativaAtual = maximoTentativas;
+
+    } else {
+
+        if (tentativaAtual == 3){
+
+            mostra("Número permitido de tentativas ultrapassado");
+
+        } else {
+
+            alert("Login inválido, tente novamente");
+        }
+    }
+
+    tentativaAtual = tentativaAtual + 1
+
+    }
+
+</script>
+    

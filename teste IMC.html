@@ -1,0 +1,41 @@
+<meta charset ="UTF-8">
+
+<script>
+
+	var ano = 2022;
+	
+	function pulaLinha() { 
+
+		document.write("<br><br>")
+
+	}
+
+    function mostra(info){
+
+    	document.write(info);
+    	pulaLinha();
+
+    }
+
+    function calculaImc(peso,altura){
+
+    	return imc = peso/(altura*altura);
+    	
+    }
+
+	var pesoVictor = 90
+	var alturaVictor = 1.75
+	var imcVictor = calculaImc(pesoVictor,alturaVictor);
+
+	mostra("O IMC do Victor é "+ imcVictor);  
+
+	var pesoDiego = 140
+	var alturaDiego = 1.65
+	var imcDiego = calculaImc(pesoDiego,alturaDiego);
+
+	mostra("O IMC do Diego é "+ imcDiego);
+
+
+</script>
+
+
