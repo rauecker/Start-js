@@ -1,4 +1,6 @@
 ## Rauecker - Experience JS
 
-Aqui estão todos os arquivos que eu já realizei com Javascript e HTML
+Aqui está meu ínicio com lógica de programação
+
+Utilizei Javascript e HTML.
 
